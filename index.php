@@ -19,7 +19,7 @@
 
         $myname = "Frodo Baggins";
         $myage = 111;
-        echo "my name is" . $myname . "and i am" . $myage . "<br />";
+        echo "my name is " . $myname . "and i am " . $myage . "<br />";
 
         $name = "Edgar";
         if ($name == "Simon"){
@@ -33,16 +33,16 @@
         $myage = 17;
         print $myage;
         if ($myage > 21){
-            print "Sauasage Rolls, Mugs and Specs<br />";
+            print " Sauasage Rolls, Mugs and Specs<br />";
         }
         elseif ($myage > 18){
-            print "Mugs and Specs<br />";
+            print " Mugs and Specs<br />";
         }
         elseif ($myage > 16){
-            print "Specs<br />";
+            print " Specs<br />";
         }
         else {
-            print "No items allowed<br />";
+            print " No items allowed<br />";
         }
 
         ?>
