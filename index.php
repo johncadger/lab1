@@ -76,6 +76,24 @@
                 echo "Error: Only keywords 'specs', 'mugs' or 'sausage rolls' are valid<br />";
         }
 
+        $myArray = array("do", "re", "mi");
+        echo $myArray[0]; //outputs "do"
+        $myArray[1] = "la"; //modifies position 1 (re)
+        echo $myArray[1]; //outputs "la"
+        unset($myArray[2]); //removes the array in position 2
+
+        //Specs, Mugs and Sausage Rolls Activity III
+        $provisionedActivities = array("Specs", "Drugs", "Rock and Roll");
+        foreach ($provisionedActivities as $i){
+            print "$i<br />";
+        }
+        $provisionedActivities[1] = "Hugs";
+        unset($provisionedActivities[2]);
+        foreach ($provisionedActivities as $i){
+            print "$i<br />";
+        }
+
+
 
 
 
