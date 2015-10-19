@@ -45,7 +45,37 @@
             print " No items allowed<br />";
         }
 
+        $numberofHobbits = 2;
+        switch ($numberofHobbits){
+            case 1:
+                echo "1 sad hobbit<br />";
+                break;
+            case 2:
+                echo "2 happy hobbits<br />";
+                break;
+            case 3:
+                echo "3 hobbits are a crowd<br />";
+                break;
+            default:
+                echo"All the hobbits have gone home<br />";
+        }
+
         //Specs, Mugs and Sausage Rolls Activity II
+        $wantedgood = "mugs";
+        switch ($wantedgood){
+            case "specs":
+                echo "You have to be over 16 to buy specs<br />";
+                break;
+            case "mugs":
+                echo "You have to be over 18 to buy mugs<br />";
+                break;
+            case "sausage rolls":
+                echo "You have to be over 21 to buy sausage rolls<br />";
+                break;
+            default:
+                echo "Error: Only keywords 'specs', 'mugs' or 'sausage rolls' are valid<br />";
+        }
+
 
 
 
