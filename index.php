@@ -26,7 +26,7 @@
             print "I know you!";
         }
         else{
-            print "who are you?";
+            print "who are you?\n";
         }
 
         //Specs, Mugs and Sausage Rolls Activity
