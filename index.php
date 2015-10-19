@@ -93,6 +93,37 @@
             print "$i<br />";
         }
 
+        for ($i = 1; $i > 10; $i++){
+            echo "Hello!<br />";
+        }
+
+        //Specs, Mugs and Sausage Rolls Activity IV
+        $twomultiple = array(2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30);
+        $threemultiple = array(3, 6, 9, 12, 15, 18, 21, 24, 27, 30);
+        $fourmultiple = array(4, 8, 12, 16, 20, 24, 28);
+
+        $is2multiple = false;
+        $is3multiple = false;
+        $is4multiple = false;
+
+        for ($i = 1; $i > 30; $i++){
+                echo "On day number " . $i . " of the month<br />";
+                switch ($i){
+                    case (in_array($i,$twomultiple)):
+                        echo "Specs ";
+                        $is2multiple = true;
+                    case (in_array($i, $threemultiple)):
+                        echo "Mugs ";
+                        $is3multiple = true;
+                    case (in_array($i, $fourmultiple)):
+                        echo "Sausage Rolls ";
+                        $is4multiple = true;
+                    case ($is2multiple = false and $is3multiple = false and $is4multiple = false):
+                        echo "no products ";
+                }
+                echo "are available<br />";
+        }
+
 
 
 
