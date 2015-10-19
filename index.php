@@ -13,17 +13,17 @@
     <p>
         <?php
         // . = + in Java
-        echo "Hello" . " " .  "World";
+        echo "Hello" . " " .  "World<br />";
 
         echo 5 * 7;
 
         $myname = "Frodo Baggins";
         $myage = 111;
-        echo "my name is" . $myname . "and i am" . $myage;
+        echo "my name is" . $myname . "and i am" . $myage . "<br />";
 
         $name = "Edgar";
         if ($name == "Simon"){
-            print "I know you!";
+            print "I know you!<br />";
         }
         else{
             print "who are you?<br />";
@@ -33,16 +33,16 @@
         $myage = 17;
         print $myage;
         if ($myage > 21){
-            print "Sauasage Rolls, Mugs and Specs";
+            print "Sauasage Rolls, Mugs and Specs<br />";
         }
         elseif ($myage > 18){
-            print "Mugs and Specs";
+            print "Mugs and Specs<br />";
         }
         elseif ($myage > 16){
-            print "Specs";
+            print "Specs<br />";
         }
         else {
-            print "No items allowed";
+            print "No items allowed<br />";
         }
 
         ?>
