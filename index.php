@@ -112,12 +112,15 @@
                     case (in_array($i,$twomultiple)):
                         echo "Specs ";
                         $is2multiple = true;
+                        break;
                     case (in_array($i, $threemultiple)):
                         echo "Mugs ";
                         $is3multiple = true;
+                        break;
                     case (in_array($i, $fourmultiple)):
                         echo "Sausage Rolls ";
                         $is4multiple = true;
+                        break;
                     case ($is2multiple = false and $is3multiple = false and $is4multiple = false):
                         echo "no products ";
                 }
