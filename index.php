@@ -15,7 +15,7 @@
         // . = + in Java
         echo "Hello" . " " .  "World<br />";
 
-        echo 5 * 7;
+        echo 5 * 7 . "<br />";
 
         $myname = "Frodo Baggins";
         $myage = 111;
@@ -44,6 +44,10 @@
         else {
             print " No items allowed<br />";
         }
+
+        //Specs, Mugs and Sausage Rolls Activity II
+
+
 
         ?>
     </p>
